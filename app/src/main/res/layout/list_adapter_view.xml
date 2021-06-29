@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textCodigo"
+        android:textSize="30sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textDescripcion"
+        android:textSize="30sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textPrecio"
+        android:textSize="30sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/textCantidad"
+        android:textSize="30sp"
+        android:layout_weight="25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="150dp"/>
+
+</LinearLayout>

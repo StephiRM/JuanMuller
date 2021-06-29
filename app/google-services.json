@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "236766721296",
+    "firebase_url": "https://juanmuller-8472f-default-rtdb.firebaseio.com",
+    "project_id": "juanmuller-8472f",
+    "storage_bucket": "juanmuller-8472f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236766721296:android:b408a07a22bb31cc742195",
+        "android_client_info": {
+          "package_name": "com.example.juanmuller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236766721296-bag63uelslnd15f9icn12lir4sirr58v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juanmuller",
+            "certificate_hash": "df56c51dd1cd5cb7117c61b66d2bcf65b3a8b234"
+          }
+        },
+        {
+          "client_id": "236766721296-ee8itnffnqjgk0tbsbnud3d36op5hsga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy98Zu43sGJ8zD1-qLdHM2uGrk4Cw02Fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236766721296-ee8itnffnqjgk0tbsbnud3d36op5hsga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

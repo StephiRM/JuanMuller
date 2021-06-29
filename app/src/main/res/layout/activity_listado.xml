@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListadoActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"></ListView>
+
+    <Button
+        android:id="@+id/btnVaciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A9C0FF"
+        android:text="Vaciar"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVolver2"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textStyle="bold"
+        android:layout_marginTop="-49dp"
+        android:layout_marginLeft="180dp"
+        android:background="#A9C0FF"/>
+</LinearLayout>

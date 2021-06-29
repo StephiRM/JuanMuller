@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juanmuller.MainActivity"
+    android:padding="16dp">
+
+   <EditText
+       android:id="@+id/inputSearch"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="25dp"
+       android:hint="Buscar"
+       android:textStyle="bold"
+       android:textSize="32dp"
+       android:inputType="textVisiblePassword"/>
+   <GridView
+       android:id="@+id/gridview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:columnWidth="70dp"
+       android:numColumns="3"
+       android:gravity="center"
+       android:layout_marginTop="100dp"></GridView>
+</RelativeLayout>
